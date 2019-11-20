@@ -90,7 +90,7 @@ const App = () => (
           </MyAppText>
           <MyAppText>Törkein vieras koko kakun nieli: </MyAppText>
           <MyAppText>paisui polla ja mustui kieli. </MyAppText>
-          <MyAppText>Herbereille tuli paha mieli, </MyAppText>
+          <MyAppText>Herbertille tuli paha mieli, </MyAppText>
           <MyAppText>kun kiitoksen sijaan </MyAppText>
           <MyAppText>vierat röyhtäili ja pieri.</MyAppText>
           <MyAppText>
