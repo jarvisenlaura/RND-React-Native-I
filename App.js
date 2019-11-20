@@ -68,7 +68,7 @@ const App = () => (
       <MyAppText>Kun teksti useammalla rivillä on kääritty isomman View-komponentin </MyAppText>
       <MyAppText>sisään, rivivaihdot ei suju yhtä hyvin.</MyAppText>
     </View>
-    <MyAppText>Lisää tähän omaa tekstiä... </MyAppText>
+    <MyAppText>Lisää tähän muutama rivi omaa tekstiä... </MyAppText>
   </View>
 );
 
