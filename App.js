@@ -48,6 +48,9 @@ const App = () => (
     <MyAppText>
       Leipäteksti
     </MyAppText>
+    <MyAppText style={{fontStyle: "italic"}}>
+      Kursivoitu
+    </MyAppText>
     <MyAppText style={{fontWeight: "bold"}}>
       Lihavoitu
     </MyAppText>
