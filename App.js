@@ -13,8 +13,6 @@ const styles = {
 
     return {
       lineHeight: fontSize * 1,
-      marginBottom: 12,
-      fontWeight: "500",
       fontSize
     };
   }
@@ -59,20 +57,6 @@ const App = () => (
           <MyAppText style={{textDecorationLine: "underline"}}>
             Alaviiva
           </MyAppText>
-          <MyAppText>
-            {"\n"}
-          </MyAppText>
-          <MyAppText>
-            <MyAppText>Kun teksti useammalla rivillä on kääritty isomman Text-</MyAppText>
-            <MyAppText>komponentin sisään, sen juokseminen riviltä toiselle sujuu paremmin.</MyAppText>
-          </MyAppText>
-          <MyAppText>
-            {"\n"}
-          </MyAppText>
-          <View>
-            <MyAppText>Kun teksti useammalla rivillä on kääritty isomman View-komponentin </MyAppText>
-            <MyAppText>sisään, rivivaihdot ei suju yhtä hyvin.</MyAppText>
-          </View>
           <MyAppText>
             {"\n"}
           </MyAppText>
