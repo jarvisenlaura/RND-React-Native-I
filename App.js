@@ -13,8 +13,6 @@ const styles = {
 
     return {
       lineHeight: fontSize * 1,
-      marginBottom: 12,
-      fontWeight: "500",
       fontSize
     };
   }
