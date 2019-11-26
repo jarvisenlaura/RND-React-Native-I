@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView } from "react-native";
+import { Text, View, ScrollView } from "react-native";
 import { MyAppText, textStyles } from "./MyAppText";
 
 const styles = {
@@ -20,68 +20,70 @@ const styles = {
 
 const App = () => (
   <View style={styles.container}>
-    <MyAppText style={styles.otsikko(2.5)}>
-      Otsikko 1
-    </MyAppText>
-    <MyAppText style={styles.otsikko(2)}>
-      Otsikko 2
-    </MyAppText>
-    <MyAppText style={styles.otsikko(1.75)}>
-      Otsikko 3
-    </MyAppText>
-    <MyAppText style={styles.otsikko(1.5)}>
-      Otsikko 4
-    </MyAppText>
-    <MyAppText style={styles.otsikko(1.25)}>
-      Otsikko 5
-    </MyAppText>
-    <MyAppText style={styles.otsikko(1)}>
-      Otsikko 6
-    </MyAppText>
-    <MyAppText>
-      Leipäteksti
-    </MyAppText>
-    <MyAppText style={{fontStyle: "italic"}}>
-      Kursivoitu
-    </MyAppText>
-    <MyAppText style={{fontWeight: "bold"}}>
-      Lihavoitu
-    </MyAppText>
-    <MyAppText style={{textDecorationLine: "underline"}}>
-      Alaviiva
-    </MyAppText>
-    <MyAppText>
-      {"\n"}
-    </MyAppText>
+    <MyAppText 
+      style={styles.otsikko(2.5)}
+      text="Otsikko 1" 
+      />
+    <MyAppText
+      style={styles.otsikko(2)}
+      text="Otsikko 2"
+    />
+    <MyAppText 
+      style={styles.otsikko(1.75)}
+      text="Otsikko 3" 
+    />
+    <MyAppText 
+      style={styles.otsikko(1.5)}
+      text="Otsikko 4" 
+    />
+    <MyAppText 
+      style={styles.otsikko(1.25)}
+      text="Otsikko 5" 
+    />  
+    <MyAppText 
+      text="Leipäteksti" 
+    />
+    <MyAppText 
+      style={{fontStyle: "italic"}}
+      text="Kursivoitu" 
+    />
+    <MyAppText
+      style={{fontWeight: "bold"}}
+      text="Lihavoitu"
+    />
+    <MyAppText
+      style={{textDecorationLine: "underline"}}
+      text="Alaviiva"
+    />
+    <MyAppText
+      text={"\n"}
+    />    
+    
     <ScrollView>
-      <MyAppText style={styles.otsikko(2)}>Iljettävä Imulima-rock </MyAppText>
-      <MyAppText>Iljettävä Imulimanäyte </MyAppText>
-      <MyAppText>leipoi kakun joss'on myrkkysienitäyte. </MyAppText>
-      <MyAppText>Säilytti sen kellarissa jäissä </MyAppText>
-      <MyAppText>tarjotakseen Herbertille häissä. </MyAppText>
-      <MyAppText>
+      <Text style={{fontSize: 30}}>Iljettävä Imulima-rock</Text>
+      <Text 
+        style={{color:'brown'}}>
         {"\n"}
-      </MyAppText>
-      <MyAppText>Oi ei! Oi ei! </MyAppText>
-      <MyAppText>
+        Iljettävä Imulimanäyte {"\n"}
+        leipoi kakun joss'on myrkkysienitäyte. {"\n"}
+        Säilytti sen kellarissa jäissä {"\n"}
+        tarjotakseen Herbertille häissä. {"\n"}
         {"\n"}
-      </MyAppText>
-      <MyAppText>Törkein vieras koko kakun nieli: </MyAppText>
-      <MyAppText>paisui polla ja mustui kieli. </MyAppText>
-      <MyAppText>Herbertille tuli paha mieli, </MyAppText>
-      <MyAppText>kun kiitoksen sijaan </MyAppText>
-      <MyAppText>vierat röyhtäili ja pieri.</MyAppText>
-      <MyAppText>
+        Oi ei! Oi ei!{"\n"}
         {"\n"}
-      </MyAppText>
-      <MyAppText>Oi ei! Oi ei! </MyAppText>
-      <MyAppText>
+        Törkein vieras koko kakun nieli: {"\n"}
+        paisui polla ja mustui kieli. {"\n"}
+        Herbertille tuli paha mieli, {"\n"}
+        kun kiitoksen sijaan {"\n"}
+        vieraat röyhtäili ja pieri.{"\n"}
         {"\n"}
-      </MyAppText>
-      <MyAppText style={{fontStyle: "italic"}}>Laura Ruohonen, Yökyöpeli </MyAppText>
-      <MyAppText>
-        {"\n"}
-      </MyAppText>
+        Oi ei! Oi ei!{"\n"}
+      </Text> 
+      <Text style={{fontSize: 26, fontStyle: "italic"}}>
+      Laura Ruohonen, Yökyöpeli 
+      {"\n"}
+      {"\n"}
+      </Text>
     </ScrollView> 
   </View>  
 );
