@@ -1,14 +1,17 @@
+//MyAppText.js
 import React from "react";
 import { Text } from "react-native";
 
 export const textStyles = {
-  fontFamily: "Helvetica",
-  fontWeight: "normal",
   fontSize: 16,
   lineHeight: 22.4,
-  color: "black"
+  color: "darkgreen",
+  marginTop: 12,
+  fontWeight: "300"
 };
 
-export const MyAppText = ({style, ...props}) => (
-  <Text {...props} style={[textStyles, style]} />
-);
+export const MyAppText = (props) => {
+  return <Text style={[textStyles, props.style]}>
+    {props.text}
+  </Text>
+}
