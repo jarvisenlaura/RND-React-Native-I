@@ -5,3 +5,4 @@ Blogi aiheesta löytyy osoitteesta https://medium.com/rnd-works
 # Miten käyttää tätä github repoa?
 Repossa on monta oksaa eli branchiä, jotka vastaavat aina tiettyä kohtaa tutoriaalista. 
 Valitse oikea oksa ja voit sieltä tarkastella mitä tiedostoja siinä on ja mitä niissä on sisällä. 
+Image-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Image-component
