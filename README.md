@@ -17,3 +17,7 @@ Text-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/
 ScrollView-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/ScrollView-component
 
 Image-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Image-component
+
+# Sovelluksen yhdistäminen Vainun rajapintaan
+
+
