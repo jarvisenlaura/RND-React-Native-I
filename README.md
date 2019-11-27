@@ -1,4 +1,4 @@
-Lataa tämä tiedosto koneellesi. 
+Lataa tiedosto Nokia42.xml koneellesi. 
 
   1) avaa AVD Manager klikkaamalla Configuration
 
