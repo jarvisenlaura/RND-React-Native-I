@@ -19,5 +19,5 @@ Image-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit
 
 # Sovelluksen yhdistäminen Vainun rajapintaan
 
-Nokia 4.2 Hardaware Profile: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Nokia-4-2-hardware-profile
+Nokia 4.2 Hardware Profile: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Nokia-4-2-hardware-profile
 
