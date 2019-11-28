@@ -1,9 +1,9 @@
-# RND-React-Native-tutoriaalit
+# RND React Native -tutoriaalit
 Ensimmäinen RND Works tutoriaali keskittyy React Native sovelluksen tekemiseen. 
 Blogi aiheesta löytyy osoitteesta https://medium.com/rnd-works 
 
 Repossa on monta oksaa eli branchiä, jotka vastaavat aina tiettyä kohtaa tutoriaalista. 
-Valitse oikea oksa ja voit sieltä tarkastella mitä tiedostoja siinä on ja mitä niissä on sisällä. 
+Valitse oikea oksa ja voit sieltä tarkastella mitä tiedostoja siinä on ja mitä niissä on sisällä. Oksan Readme kertoo mitkä tiedostot ovat muuttuneet.
 
 # Ensimmäinen React Native sovellus
 
