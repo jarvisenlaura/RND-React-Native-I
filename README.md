@@ -17,7 +17,7 @@ ScrollView-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutori
 
 Image-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Image-component
 
-# Sovelluksen yhdistäminen Vainun rajapintaan
+# Puhelinnumeron nappaaminen
 
 Nokia 4.2 Hardware Profile: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Nokia-4-2-hardware-profile
 
