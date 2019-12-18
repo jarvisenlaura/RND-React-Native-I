@@ -1,64 +1,26 @@
 import React from "react";
-import { View } from "react-native";
-import { MyAppText, textStyles } from "./MyAppText";
-
-const styles = {
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center"
-  },
-  otsikko: (skaala) => {
-    const fontSize = textStyles.fontSize * skaala;
-
-    return {
-      lineHeight: fontSize * 1,
-      fontSize
-    };
-  }
-};
-
+import { View, Text, StyleSheet } from "react-native";
 const App = () => (
-  <View style={styles.container}>
-    <MyAppText 
-      style={styles.otsikko(2.5)}
-      text="Otsikko 1" 
-      />
-    <MyAppText
-      style={styles.otsikko(2)}
-      text="Otsikko 2"
-    />
-    <MyAppText 
-      style={styles.otsikko(1.75)}
-      text="Otsikko 3" 
-    />
-    <MyAppText 
-      style={styles.otsikko(1.5)}
-      text="Otsikko 4" 
-    />
-    <MyAppText 
-      style={styles.otsikko(1.25)}
-      text="Otsikko 5" 
-    />  
-    <MyAppText 
-      text="Leipäteksti" 
-    />
-    <MyAppText 
-      style={{fontStyle: "italic"}}
-      text="Kursivoitu" 
-    />
-    <MyAppText
-      style={{fontWeight: "bold"}}
-      text="Lihavoitu"
-    />
-    <MyAppText
-      style={{textDecorationLine: "underline"}}
-      text="Alaviiva"
-    />
-    <MyAppText
-      text={"\n"}
-    />    
-  </View>  
+ <View style={styles.container}>
+  <Text style={{fontSize: 32, marginTop: 12}}>Heading 1</Text>
+  <Text style={{fontSize: 26, marginTop: 12}}>Heading 2</Text>
+  <Text style={{fontSize: 22, marginTop: 12}}>Heading 3</Text>
+  <Text style={{fontSize: 18, marginTop: 12}}>Heading 4</Text>
+  <Text style={{fontSize: 16, marginTop: 12}}>Heading 5</Text>
+  <Text>{"\n"}</Text>
+  <Text>Paragraph</Text>
+  <Text style={{fontStyle: "italic"}}>Italic</Text>
+  <Text style={{fontWeight: "bold"}}>Bold</Text>
+  <Text style={{textDecorationLine: "underline"}}>Underline</Text>
+ </View>
 );
-
+const styles = StyleSheet.create({
+ container: {
+  flex: 1,
+  backgroundColor: "mintcream" ,
+  alignItems: "center",
+  justifyContent: "center", 
+  padding: 30
+ }
+});
 export default App;
