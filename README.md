@@ -1,1 +1,1 @@
-Muutoksia tiedostossa App.js ja lisätty uusi tiedosto MyAppText.js
+Muutoksia tiedostossa App.js
