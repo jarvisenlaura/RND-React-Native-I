@@ -1,4 +1,4 @@
-# RND React Native -tutoriaalit
+# RND React Native tutoriaali Expo CLI osuus
 Ensimmäinen RND Works tutoriaali keskittyy React Native sovelluksen tekemiseen. 
 Blogi aiheesta löytyy osoitteesta https://medium.com/rnd-works 
 
@@ -16,8 +16,3 @@ Text-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/
 ScrollView-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/ScrollView-component
 
 Image-komponentti: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Image-component
-
-# Puhelinnumeron nappaaminen
-
-Nokia 4.2 Hardware Profile: https://github.com/jarvisenlaura/RND-React-Native-tutoriaalit/tree/Nokia-4-2-hardware-profile
-
